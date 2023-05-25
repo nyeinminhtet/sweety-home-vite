@@ -95,7 +95,7 @@
     justify-content: space-between;
   }
   .search-bar > input {
-    width: 60%;
+    width: 100%;
     padding: 0.5rem;
   }
   .search-bar .button {
