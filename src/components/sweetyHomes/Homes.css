@@ -1,0 +1,77 @@
+.home-container {
+  overflow: hidden;
+  position: relative;
+}
+.head {
+  margin-bottom: 2rem;
+}
+.card {
+  gap: 0.6rem;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: max-content;
+  margin: auto;
+  transition: all 300ms ease-in-out;
+}
+.card > img {
+  width: 100%;
+  max-width: 15rem;
+}
+.card > :nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.card > :nth-child(3) {
+  font-size: 1.5rem;
+}
+.card > :nth-child(4) {
+  font-size: 0.7rem;
+  width: 15rem;
+}
+
+.card:hover {
+  scale: 1.025;
+  cursor: pointer;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(136, 160, 255, 0.45) 217.91%
+  );
+  box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
+}
+.swiper-horizontal {
+  overflow: visible;
+}
+
+.s-buttons {
+  position: absolute;
+  gap: 1rem;
+  top: 5rem;
+  right: 3rem;
+  z-index: 1;
+  background: balck;
+}
+.s-buttons > button {
+  font-size: 1.5rem;
+  padding: 0.2rem 0.8rem;
+  color: blue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: whitesmoke;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+}
+.s-buttons > button:hover {
+  background: #eeeeff;
+}
+
+@media (max-width: 640px) {
+  .head {
+    align-items: center;
+  }
+  .s-buttons {
+    position: initial;
+    margin-bottom: 10%;
+    margin-top: -2%;
+  }
+}

@@ -1,0 +1,36 @@
+.f-container {
+  position: relative;
+}
+
+.f-left {
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+}
+.f-logo {
+  font-size: 2rem;
+  color: blue;
+}
+
+.f-menu {
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+.f-menu > span {
+  color: black;
+}
+.f-menu > span:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .f-container {
+    justify-content: center;
+  }
+  .f-container > div {
+    align-items: center !important;
+    text-align: center;
+  }
+}

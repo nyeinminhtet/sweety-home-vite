@@ -1,0 +1,6 @@
+.c-container {
+  gap: 1rem;
+}
+.c-container > img {
+  width: 9rem;
+}
