@@ -89,13 +89,16 @@
   .stat > :nth-child(2) {
     font-size: 0.8rem;
   }
-  /* .search-bar {
+  .search-bar {
     width: 80%;
     padding: 0.2rem 0.5rem;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .search-bar > input {
     width: 60%;
     padding: 0.5rem;
-  } */
+  }
+  .search-bar .button {
+    padding: 0.3rem 0.9rem;
+  }
 }
